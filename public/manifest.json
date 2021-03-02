@@ -1,0 +1,15 @@
+{
+    "short_name": "Medaf App",
+    "name": "Medaf App PWA",
+    "icons": [
+        {
+            "src": "images/android-chrome-512x512.png",
+            "type": "image/png",
+            "sizes": "1024x1024"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
