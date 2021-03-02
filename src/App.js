@@ -36,8 +36,21 @@ function App() {
       <HeaderScreen />
       <div className="App">
         <Helmet>
-          <title> medaf Case Trendiest Designs for Cell Phone Cases</title>
-          <meta name="Smartphone Cases, Tablet Covers, Laptop Sleeves & More ✓ Trusted Shop ✓ Fast Delivery  ✓ Designed In Ethiopia" />
+        <title>Medaf Customize Phone Cases</title>
+          <meta name="description" content="The Trendiest Designs customized   Cell Phone Cases Smartphone Cases, Tablet Covers, Laptop Sleeves & More ✓ Trusted Shop ✓ Fast Delivery ✓ Worldwide Delivery Ethiopia" />
+          <meta itemProp="name" content="Medaf Customize Phone Cases"  />
+          <meta itemProp="description" content="The Trendiest Designs customized   Cell Phone Cases Smartphone Cases, Tablet Covers, Laptop Sleeves & More ✓ Trusted Shop ✓ Fast Delivery ✓ Worldwide Delivery Ethiopia" />
+          <meta itemProp="image" content="https://i.imgur.com/0HycHMZ.jpg" />
+          <meta property="og:url" content="https://medaffrontend.web.app" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="Medaf Customize Phone Cases" />
+          <meta property="og:description" content="The Trendiest Designs customized   Cell Phone Cases Smartphone Cases, Tablet Covers, Laptop Sleeves & More ✓ Trusted Shop ✓ Fast Delivery ✓ Worldwide Delivery Ethiopia" />
+          <meta property="og:image" content="https://i.imgur.com/0HycHMZ.jpg" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Medaf Customize Phone Cases"/>
+          <meta name="twitter:description" content="The Trendiest Designs customized   Cell Phone Cases Smartphone Cases, Tablet Covers, Laptop Sleeves & More ✓ Trusted Shop ✓ Fast Delivery ✓ Worldwide Delivery Ethiopia" />
+          <meta name="twitter:image" content="https://i.imgur.com/0HycHMZ.jpg"/>
+
         </Helmet>
         <Switch>
           <AdminRoute path="/order/:id/edit">
