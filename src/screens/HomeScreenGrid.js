@@ -2,8 +2,6 @@ import { Grid, makeStyles, Typography } from "@material-ui/core";
 import React from "react";
 import { Link } from "react-router-dom";
 import SecurityIcon from "@material-ui/icons/Security";
-
-import SelectBrand from "./SelectBrand";
 import SelectBrandTwo from "./SelectBrandTwo";
 import AsyncTicker from "../components/home/AsyncTicker";
 
@@ -82,7 +80,11 @@ function HomeScreenGrid() {
         </Grid>
         <Grid item xs={12} sm={6}>
           <center>
-            <img className={classes.wed} src="https://i.imgur.com/Hb3Tz53.png" alt="weding" />
+            <img
+              className={classes.wed}
+              src="https://i.imgur.com/Hb3Tz53.png"
+              alt="weding"
+            />
           </center>
         </Grid>
         <Grid className={classes.brandL} item xs>
