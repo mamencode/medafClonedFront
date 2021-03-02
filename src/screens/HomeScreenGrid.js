@@ -82,7 +82,7 @@ function HomeScreenGrid() {
         </Grid>
         <Grid item xs={12} sm={6}>
           <center>
-            <img className={classes.wed} src="/images/wed.webp" alt="wedmock" />
+            <img className={classes.wed} src="https://i.imgur.com/Hb3Tz53.png" alt="weding" />
           </center>
         </Grid>
         <Grid className={classes.brandL} item xs>
